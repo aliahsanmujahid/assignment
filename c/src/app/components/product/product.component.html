@@ -1,0 +1,34 @@
+
+  <div class="wrapper">
+    <div class="cards_wrap">
+
+      <div *ngFor="let item of products" class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <img src="{{item.ImagePath || '../assets/e.webp'}}"  alt="IMAGE">
+          </div>
+          <div class="psummer">
+            <span>Name: {{item.Name}}</span>
+           <div >
+            <span>Price: {{item.Price}} tk</span>
+            <span>BrandName: {{item.BrandName}}</span>
+            <span>Code: {{item.Code}}</span>
+            <span>ColorName: {{item.ColorName}}</span>
+            <span>CostPrice: {{item.CostPrice}} $$$</span>
+            <span>Description: {{item.Description}}</span>
+            <span>LastPurchaseDate: {{item.LastPurchaseDate}}</span>
+            <span>LastPurchaseSupplier: {{item.LastPurchaseSupplier}}</span>
+            <span>LastSalesCustomer: {{item.LastSalesCustomer}}</span>
+            <span>SizeName: {{item.SizeName}}</span>
+            <span>Status: {{item.Status}}</span>
+            <span>Type: {{item.Type}}</span>
+            <span>UnitName: {{item.UnitName}}</span>
+           </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
