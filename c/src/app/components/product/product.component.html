@@ -1,0 +1,34 @@
+
+  <div class="wrapper">
+    <div class="cards_wrap">
+
+      <div *ngFor="let item of products" class="card_item">
+        <div class="card_inner">
+          <div class="card_top">
+            <!-- <img src="{{item.ImagePath'}}"  alt="IMAGE"> -->
+          </div>
+          <div class="psummer">
+            <span>Name: {{item.Name}}</span>
+           <div >
+            <span>Price: {{item.Price}} tk</span><br>
+            <span>BrandName: {{item.BrandName}}</span><br>
+            <span>Code: {{item.Code}}</span><br>
+            <span>ColorName: {{item.ColorName}}</span><br>
+            <span>CostPrice: {{item.CostPrice}} $$$</span><br>
+            <span>Description: {{item.Description}}</span><br>
+            <span>LastPurchaseDate: {{item.LastPurchaseDate}}</span><br>
+            <span>LastPurchaseSupplier: {{item.LastPurchaseSupplier}}</span><br>
+            <span>LastSalesCustomer: {{item.LastSalesCustomer}}</span><br>
+            <span>SizeName: {{item.SizeName}}</span><br>
+            <span>Status: {{item.Status}}</span><br>
+            <span>Type: {{item.Type}}</span><br>
+            <span>UnitName: {{item.UnitName}}</span><br>
+           </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+
